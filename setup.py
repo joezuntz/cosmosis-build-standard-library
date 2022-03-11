@@ -12,7 +12,7 @@ setup(name = 'cosmosis-build-standard-library',
       packages = [],
       scripts = ['bin/cosmosis-build-standard-library'],
       install_requires = [],
-      version="0.5.1",
+      version="0.5.17",
       license_files = ('LICENSE',),
 )
 

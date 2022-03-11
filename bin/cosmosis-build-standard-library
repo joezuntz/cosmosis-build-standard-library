@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-DEFAULT_BRANCH=v0.5
+DEFAULT_BRANCH=v0.5.17
 
 if [ "$1" == "" ]; then
     branch=${DEFAULT_BRANCH}
