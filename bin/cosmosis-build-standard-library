@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
-DEFAULT_BRANCH=v0.5.17
+DEFAULT_BRANCH=main
 
 if [ "$1" == "" ]; then
     branch=${DEFAULT_BRANCH}
-elif [ "$1" == "main" ]; then
-    branch="main"
 else
     branch=$1
 fi
