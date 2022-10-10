@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-
 DEFAULT_BRANCH=main
 INPLACE=0
 
@@ -26,7 +25,6 @@ if [ "$1" == "" ]; then
 else
     branch=$1
 fi
-
 
 
 # If running in-place then find the CSL dir
